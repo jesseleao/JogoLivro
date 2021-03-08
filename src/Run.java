@@ -16,6 +16,7 @@ public class Run {
 			System.out.println("  Você esfrega a mão no rosto e decide tomar agua para acalmar os animos, abre a porta do quarto e tenta ascender as luzes, porem elas não funcionam \"Deve ter acabado a força!\", você afirma enquanto desce as escadas. Você vai até a cozinha, abre a geladeira, pega a agua e toma, enquanto isso, você ouve um barulho na porta de tras, decide fechar a geladeira para verificar e se depara com a seguinte silhueta no vidro");
 			Thread.sleep(40000);// 40000
 			
+			
 			System.out.println("                                                     #@@@@@@@&&%&%#%%%");
 			System.out.println("                                                  @@@@&%@&&&@@@&&&@&&%%%%");
 			System.out.println("                                                @@@@&&@&%&&&&&&&&%%&&%&&&&%");
@@ -87,15 +88,15 @@ public class Run {
 				acao = medo.next();
 				
 				if (acao.equalsIgnoreCase("Esconder")) {
-					System.out.println("- Após se esconder no armario você ouve as dobradiças da porta estourando, o assassino entra rapido no quarto, ve a janela fechada e vai verificar o armario. Ele o encontra e o mata!");
+					System.out.println("- Após se esconder no armario você ouve as dobradiças da porta da cozinha estourando, o assassino entra rapido no quarto, ve a janela fechada e vai verificar o armario. Ele o encontra e o mata!");
 				}else {
-					System.out.println("- Após abrir a janela você ouve as dobradiças da porta estourando e se ve dividido entre [Pular] do segundo andar ou quebrar a janela e se [Esconder] no armario");
+					System.out.println("- Após abrir a janela você ouve as dobradiças da porta da cozinha estourando e se ve dividido entre [Pular] do segundo andar ou quebrar a janela e se [Esconder] no armario");
 					acao = medo.next();
 					
 					if (acao.equalsIgnoreCase("Pular")) {
 						System.out.println("- Você torce o tornozelo na queda e solta um grito lancinante, alto o suficiente para a vizinhança acordar e ver o que estava acontecendo. O assassino desce as escadas, vai até você e o mata. Os vizinhos identificam a silhueta e a mascara do assassino, seus relatos juntamente a velocidade de ação da policia foram precisos o suficiente para pega-lo pouco depois do crime");
 					}else {
-						System.out.println("- Você se esconde no armario, o assassino logo chega no quarto e se depara com a janela aberta e quebrada, preocupado de ter perdido uma vitima que havia visto seu rosco, ele corre para o andar de baixo e tenta encotra-lo do lado de fora de casa. Após ouvir o som da janela se quebrando, os vizinhos foram verificar o que havia acontecido e, ao se deparar com aquela pessoa saindo por tras de uma casa com a porta estourada e a janela do segundo andar quebrada, decidem ligar para a policia que chega rapidamente ao local, você pode [Ir] até a Janela e gritar por ajuda aos policiais ou [Continuar] escondido");
+						System.out.println("- Você se esconde no armario, o assassino logo chega no quarto e se depara com a janela aberta e quebrada, preocupado de ter perdido uma vitima que havia visto seu rosco, ele corre para o andar de baixo e tenta encotra-lo do lado de fora de casa. Após ouvir o som da porta e da janela se quebrando, os vizinhos foram verificar o que havia acontecido e, ao se deparar com aquela pessoa saindo por tras de uma casa com a porta estourada e a janela do segundo andar quebrada, decidem ligar para a policia que chega rapidamente ao local, você pode [Ir] até a Janela e gritar por ajuda aos policiais ou [Continuar] escondido");
 						acao = medo.next();
 						
 						if (acao.equalsIgnoreCase("Ir")){
@@ -112,7 +113,7 @@ public class Run {
 				acao = medo.next();
 				
 				if (acao.equalsIgnoreCase("Sai")) {
-					System.out.println("- Você sai correndo escadas abaixo, o assassino percebe e corre em sua direção, logo após sair de casa você grita, porem ele o alcança, você é esfaqueado pelas costas e morre. Após ouvir seus gritos os vizinhos vão até a janela, identificam a silhueta e a mascara do assassino, seus relatos juntamente a velocidade de ação da policia foram precisos o suficiente para pega-lo pouco depois do crime.");
+					System.out.println("- Você sai correndo escadas abaixo, o assassino percebe e corre em sua direção, logo após sair de casa você grita, porem ele o alcança, você é apunhalado pelas costas e morre. Após ouvir seus gritos os vizinhos vão até a janela, identificam a silhueta e a mascara do assassino, seus relatos juntamente a velocidade de ação da policia foram precisos o suficiente para pega-lo pouco depois do crime.");
 				}else {
 					System.out.println("- Após verificar o quarto, o assassino por exclusão foi verificar o armario em que você estava escondido, ao abrir ele simplesmente o matou");
 				}
